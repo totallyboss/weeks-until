@@ -98,6 +98,10 @@ button.ghost:hover {
   background: var(--surface-2);
 }
 
+.card-actions button[aria-label='Delete']:hover {
+  color: var(--danger);
+}
+
 .card-title {
   font-size: 0.95rem;
   font-weight: 500;
@@ -117,6 +121,10 @@ button.ghost:hover {
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1;
+  background: linear-gradient(135deg, var(--mint), var(--amber));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .card-days-label {
@@ -153,7 +161,7 @@ button.primary {
   align-items: center;
   gap: 6px;
   background: var(--accent);
-  color: #0b0d12;
+  color: var(--accent-ink);
   border: none;
   padding: 12px 18px;
   border-radius: 12px;
@@ -169,12 +177,12 @@ button.primary {
   height: 56px;
   border-radius: 50%;
   background: var(--accent);
-  color: #0b0d12;
+  color: var(--accent-ink);
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 24px rgba(109, 139, 255, 0.35);
+  box-shadow: 0 8px 24px rgba(112, 255, 210, 0.3);
 }
 
 .reset-passcode {
@@ -255,7 +263,7 @@ button.primary {
 .gate-card button[type='submit'] {
   margin-top: 8px;
   background: var(--accent);
-  color: #0b0d12;
+  color: var(--accent-ink);
   border: none;
   padding: 12px;
   border-radius: 10px;
