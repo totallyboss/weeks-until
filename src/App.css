@@ -16,8 +16,9 @@
 }
 
 .app-header h1 {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
   margin: 0;
   letter-spacing: -0.01em;
 }
@@ -71,8 +72,9 @@ button.ghost:hover {
 }
 
 .card-days-number {
+  font-family: var(--font-display);
   font-size: 4.5rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1;
   background: linear-gradient(135deg, var(--grad-a), var(--grad-b));
@@ -138,7 +140,8 @@ button.ghost:hover {
 }
 
 .card-title {
-  font-size: 0.95rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text);
   margin: 6px 0 0;
@@ -247,7 +250,9 @@ button.primary {
 }
 
 .gate-card h1 {
-  font-size: 1.15rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -315,7 +320,9 @@ button.primary {
 }
 
 .modal-header h2 {
-  font-size: 1.05rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
   margin: 0;
 }
 
