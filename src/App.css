@@ -60,7 +60,6 @@ button.ghost:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 20px;
   box-shadow: var(--card-shadow);
 }
 
@@ -71,6 +70,7 @@ button.ghost:hover {
   text-align: right;
   line-height: 1;
   min-width: 0;
+  padding-right: 20px;
 }
 
 .card-days-number {
